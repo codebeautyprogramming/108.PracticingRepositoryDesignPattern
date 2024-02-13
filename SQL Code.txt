@@ -1,0 +1,13 @@
+CREATE TABLE RecipeTypes (
+    Id INT IDENTITY(1,1) PRIMARY KEY,
+    Name NVARCHAR(50) NOT NULL
+)
+
+insert into RecipeTypes (Name)
+values
+('Salad'),
+('Pizza'),
+('Pasta'),
+('Cake')
+
+select * from RecipeTypes
